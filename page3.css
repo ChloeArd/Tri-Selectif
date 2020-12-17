@@ -35,3 +35,20 @@ body {
     font-size: 70px;
     margin-left: 20px;
 }
+
+#savoir, #resultats {
+    margin-top: 30px;
+    background-color: #93C47D;
+    border-radius: 10px 10px;
+    padding: 30px;
+    font-size: 19px;
+    box-shadow: 5px 5px 5px grey;
+}
+
+h2{
+    text-align: center;
+}
+
+#tri{
+    margin-top: 10px;
+}
