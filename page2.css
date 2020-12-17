@@ -35,3 +35,57 @@ body {
     font-size: 70px;
     margin-left: 20px;
 }
+
+#dechets{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: #106900;
+    font-size: 25px;
+    border-radius: 10px 10px;
+    padding: 30px;
+    box-shadow: 5px 5px 5px grey;
+}
+
+span{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#conseil{
+    color: gray;
+    font-size: 15px;
+    margin-top: 80px;
+}
+
+#poubelles{
+    font-size: 150px;
+    margin-top: 100px;
+}
+
+#poubelleJaune{
+    color: #E0D42B;
+}
+
+#poubelleBleu{
+    color: #16193D;
+}
+
+#poubelleVerte{
+    color: #0B2E13;
+}
+
+#poubelleMarron{
+    color: #69471E;
+}
+
+#resultat{
+    border: 2px solid black;
+    color: white;
+    text-decoration: none;
+    background-color: #106900;
+    font-size: 25px;
+    margin-top: 30px;
+    box-shadow: 3px 3px 3px grey;
+    border-radius: 5px 5px;
+}
