@@ -47,7 +47,8 @@ body {
     box-shadow: 5px 5px 5px grey;
 }
 
-span{
+#bouteillePlastique, #cartons, #yaourt, #vin, #verre, #repas, #PotsConfiture, #journaux, #couchesCulottes, #conserve{
+    background-color: darkseagreen;
     margin-left: 10px;
     margin-right: 10px;
 }
@@ -61,6 +62,8 @@ span{
 #poubelles{
     font-size: 150px;
     margin-top: 100px;
+    display: flex;
+    flex-direction: row;
 }
 
 #poubelleJaune{
@@ -77,6 +80,28 @@ span{
 
 #poubelleMarron{
     color: #69471E;
+}
+
+#containerJaune, #containerVert, #containerMarron, #containerBleu {
+    border: 2px solid black;
+    height: 250px;
+    width: 200px;
+}
+
+#containerJaune{
+    background-color: #FFFB59;
+}
+
+#containerVert{
+    background-color: #76A23D;
+}
+
+#containerBleu{
+    background-color: #3D68A2;
+}
+
+#containerMarron{
+    background-color: #A26B3D;
 }
 
 #resultat{
